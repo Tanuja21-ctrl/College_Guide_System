@@ -1,0 +1,43 @@
+.service-section .category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.service-section .category-buttons button {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+.service-section .category-buttons .active {
+  color: blue;
+  text-decoration: underline;
+}
+
+.service-section .service-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-section .service-item img:hover {
+  transform: scale(1.05);
+}
+.service-section .service-item img {
+  width: 100%; /* Ensures images take full width of the container */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images maintain aspect ratio and cover the area */
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-section .service-item img:hover {
+  transform: scale(1.05);
+}

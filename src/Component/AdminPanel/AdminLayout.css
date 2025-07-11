@@ -1,0 +1,28 @@
+.admin-container {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar-section {
+    background-color: #343a40;
+    min-height: 100vh;
+  }
+  
+  .admin-content {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .admin-title {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .admin-card {
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+  }
+  

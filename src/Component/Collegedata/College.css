@@ -1,0 +1,24 @@
+.full-width {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .college-card {
+    width: 100%;
+    max-width: 1200px; /* ✅ Large on big screens */
+    min-width: 300px;
+  }
+  
+  .college-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .college-card {
+      max-width: 100%; /* ✅ Fully responsive */
+    }
+  }
+  

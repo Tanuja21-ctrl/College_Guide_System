@@ -1,0 +1,33 @@
+.about-wrapper {
+  background-color: #f9f9f9;
+}
+
+.about-subtext {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-card-custom {
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.about-card-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-icon {
+  font-size: 2rem;
+}
+
+.about-description {
+  font-size: 0.95rem;
+  color: #666;
+  padding: 0 10px;
+}

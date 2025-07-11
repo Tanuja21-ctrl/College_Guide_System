@@ -1,0 +1,17 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-card {
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .dashboard-icon {
+    font-size: 2rem;
+  }
+  

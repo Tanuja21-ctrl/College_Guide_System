@@ -1,0 +1,60 @@
+.roadmap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .roadmap-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .roadmap-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .node-box {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .line {
+    width: 2px;
+    height: 20px;
+    background-color: gray;
+    margin: 5px 0;
+  }
+  
+  .roadmap-children {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .roadmap-children .node-box {
+    background-color: #28a745;
+  }
+  .clickable {
+    text-decoration: none; /* Removes underline */
+    color: #007bff; /* Optional: Sets a nice link color */
+    font-weight: bold; /* Makes it stand out */
+  }
+  
+  .clickable:hover {
+    color: #0056b3; /* Changes color on hover */
+    text-decoration: none; /* Ensures no underline appears on hover */
+  }
+  

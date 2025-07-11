@@ -1,0 +1,187 @@
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+  }
+  
+  .login-container {
+    width: 90%;
+    max-width: 1200px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .login-left {
+    background: #2f3e9e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+  }
+  
+  .logo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-img {
+    width: 60px;
+    height: auto;
+  }
+  
+  .logo-text {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .astro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .astro-img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .dots {
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot.active {
+    background-color: #fff;
+  }
+  
+  .blurred-email {
+    margin-top: 30px;
+    width: 80%;
+  }
+  
+  .blurred-input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding: 8px 12px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+  
+  .login-right {
+    padding: 50px 30px;
+    background: #ffffff;
+  }
+  
+  .login-form-section {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-btn {
+    background-color: #2f3e9e;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .separator {
+    color: #999;
+    font-weight: 500;
+  }
+  
+  .social-icon {
+    width: 18px;
+    height: auto;
+    margin-right: 6px;
+  }
+  
+  .google-btn, .gitlab-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .register-link, .forgot-link {
+    color: #2f3e9e;
+    text-decoration: none;
+  }
+  /* Add this to LoginPage.css */
+
+.bg-image {
+   
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blurred-email {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .blurred-input {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    backdrop-filter: blur(5px);
+    color: #333;
+    font-style: italic;
+  }
+  .login-left {
+    position: relative;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb8OOQQHy4CBg9OyCL0WFc4MUIl8CIixzYJQ&s') no-repeat center center/cover;
+    min-height: 80vh; /* Reduced height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .login-left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Light overlay for readability */
+    backdrop-filter: blur(3px); /* Slight blur effect */
+    z-index: 1;
+  }
+  
+  .logo-title, .astro-section {
+    position: relative;
+    z-index: 2;
+  }
+  

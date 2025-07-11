@@ -1,0 +1,56 @@
+/* RegistrationPage.css */
+
+.registration-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h3 {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-container .form-label {
+    font-weight: 500;
+  }
+  
+  .form-container .form-control {
+    border-radius: 8px;
+    height: 42px;
+    font-size: 14px;
+  }
+  
+  .register-btn {
+    background-color: #f1e428;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 0;
+    transition: background 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color:#ffc107;
+  }
+  .yellow-btn {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+  }
+  

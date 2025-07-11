@@ -1,0 +1,71 @@
+.review-section {
+    background-color: #fffef6;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section-description {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .review-card {
+    border-radius: 1rem;
+    padding-top: 3rem;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .review-img-wrapper {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .review-name {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .review-role {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .review-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .review-stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .star-filled {
+    color: #fbbf24;
+  }
+  
+  .star-empty {
+    color: #ddd;
+  }
+  

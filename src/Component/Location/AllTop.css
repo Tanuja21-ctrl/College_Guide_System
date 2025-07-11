@@ -1,0 +1,35 @@
+.location-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    background-color: #f9fbff;
+  }
+  
+  .location-card:hover {
+    background-color: #eaf4ff;
+    transform: translateY(-4px);
+  }
+  
+  .icon-box {
+    background-color: #e3f2fd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-icon {
+    color: #007bff;
+    font-size: 20px;
+  }
+  
+  .browse-all-link {
+    color: #007bff;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

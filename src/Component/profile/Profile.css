@@ -1,0 +1,59 @@
+.profile-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  background-color: #061e36;
+  color: white;
+  height: 100vh;
+}
+
+.sidebar-menu .list-group-item {
+  background: none;
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-menu .list-group-item:hover {
+  background-color: #0a2e50;
+}
+
+.logout {
+  color: red !important;
+}
+
+.profile-section {
+  padding-bottom: 20px;
+}
+
+.profile-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.edit-btn {
+  margin-top: 5px;
+}
+
+.section-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.college-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.college-logo {
+  width: 50px;
+  height: 50px;
+}

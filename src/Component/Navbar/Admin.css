@@ -1,0 +1,17 @@
+.admin-login-container {
+    min-height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSexIduiqWCqVDsVyLjH_-MKQ-z57oEgElJng&s');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+  }
+  .admin-login-box {
+    background: rgba(255, 255, 255, 0.95); 
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  

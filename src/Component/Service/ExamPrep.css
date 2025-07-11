@@ -1,0 +1,91 @@
+/* Container */
+.exam-prep-container {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .exam-prep-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid container (4 columns by default) */
+  .exam-prep-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Card */
+  .exam-card {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 250px; /* Fixed width to keep 4 in a row */
+  }
+  
+  .exam-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Icon */
+  .exam-icon {
+    font-size: 40px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+  }
+  
+  /* Title */
+  .exam-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Description */
+  .exam-description {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* View More button */
+  .exam-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .exam-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive - Keep 2 in a row for smaller screens */
+  @media (max-width: 1024px) {
+    .exam-prep-grid {
+      justify-content: center;
+    }
+    .exam-card {
+      width: 45%;
+    }
+  }
+  
+  /* Mobile View - Show 1 in a row */
+  @media (max-width: 600px) {
+    .exam-card {
+      width: 90%;
+    }
+  }
+  
